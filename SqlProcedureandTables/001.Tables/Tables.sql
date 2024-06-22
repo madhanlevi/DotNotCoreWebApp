@@ -1,0 +1,20 @@
+CREATE TABLE Authors (
+    AuthorID INT PRIMARY KEY IDENTITY(1,1),
+    LastName VARCHAR(100) NOT NULL,
+    FirstName VARCHAR(100) NOT NULL,
+	IsDeleted bit DEFAULT 0,
+	CreatedDate DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE Books (
+    BookID INT PRIMARY KEY IDENTITY(1,1),
+    Publisher VARCHAR(100) NOT NULL,
+    Title VARCHAR(255) NOT NULL,
+    AuthorID INT NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    CONSTRAINT FK_AuthorID FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID),
+	IsDeleted bit DEFAULT 0,
+	CreatedDate DATETIME DEFAULT GETDATE()
+);
+
+

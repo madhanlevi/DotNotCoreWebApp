@@ -1,0 +1,19 @@
+[
+    {
+    
+        "publisher": "Penguin Books",
+        "title": "The Great Gatsby",
+        "authorLastName": "Fitzgerald",
+        "authorFirstName": "F. Scott",
+        "price": 9.99
+    },
+    {
+
+        "publisher": "HarperCollins",
+        "title": "To Kill a Mockingbird",
+        "authorLastName": "Lee",
+        "authorFirstName": "Harper",
+        "price": 7.99
+    }
+ 
+]
