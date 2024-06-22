@@ -18,4 +18,4 @@ This project implements a RESTful API using .NET Core for managing a collection 
 - **Tables and Procedure** : Tables and Procedures scrpits are in sqlProceduresandtables folder
   
 ## TESTING IN POSTMAN
--- Use BulkInsertPayload.json for bulk Insert books.
+- Use BulkInsertPayload.json from payload folder for bulk Insert books
