@@ -15,7 +15,7 @@ This project implements a RESTful API using .NET Core for managing a collection 
 ### Database Setup
 - **Database Type**: SQL Server
 - **Connection String**: Replace `DefaultConnection` in `appsettings.json` with your database connection string.
--- **Tables and Procedure** : Tables and Procedures scrpits are in sqlProceduresandtables folder
+- **Tables and Procedure** : Tables and Procedures scrpits are in sqlProceduresandtables folder
   
 ## TESTING IN POSTMAN
 -- Use BulkInsertPayload.json for bulk Insert books.
